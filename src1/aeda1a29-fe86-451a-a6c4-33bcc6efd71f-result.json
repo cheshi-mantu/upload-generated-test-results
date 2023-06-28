@@ -1,0 +1,420 @@
+{
+  "uuid": "aeda1a29-fe86-451a-a6c4-33bcc6efd71f",
+  "historyId": "ef2b10550aeea3b0b3d6a021d3d4f7feairslate-stage",
+  "fullName": "com.airslate.api.bots.apps.bots.CalculateAddonPrefillTest.execute",
+  "labels": [
+    {
+      "name": "package",
+      "value": "com.airslate.api.bots.apps.bots.CalculateAddonPrefillTest"
+    },
+    {
+      "name": "testClass",
+      "value": "com.airslate.api.bots.apps.bots.CalculateAddonPrefillTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "execute"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "qa-airslate-bots"
+    },
+    {
+      "name": "subSuite",
+      "value": "com.airslate.api.bots.apps.bots.CalculateAddonPrefillTest"
+    },
+    {
+      "name": "host",
+      "value": "4883.local"
+    },
+    {
+      "name": "thread",
+      "value": "23953@4883.local.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "dev_repo",
+      "value": "calculate-addon"
+    },
+    {
+      "name": "AS_ID",
+      "value": "56291"
+    },
+    {
+      "name": "team",
+      "value": "Bots"
+    },
+    {
+      "name": "feature",
+      "value": "Make Calculations in Documents [calculate-addon-prefill]"
+    },
+    {
+      "name": "owner",
+      "value": "@Horobets"
+    },
+    {
+      "name": "story",
+      "value": "Make Calculations in Documents [calculate-addon-prefill]"
+    },
+    {
+      "name": "epic",
+      "value": "Bots"
+    },
+    {
+      "name": "tag",
+      "value": "Team: Bots"
+    }
+  ],
+  "links": [
+    {
+      "name": "7528",
+      "type": "tms"
+    }
+  ],
+  "name": "execute",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "REQUEST: GET /v1/flows",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946909894,
+      "stop": 1687946910637
+    },
+    {
+      "name": "Create Simple slate with document(name: BOTS: setup..., isPublic: true)",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "REQUEST: POST /v1/flows",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946910685,
+          "stop": 1687946916298
+        },
+        {
+          "name": "REQUEST: POST /v1/documents/upload",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946916328,
+          "stop": 1687946917329
+        },
+        {
+          "name": "POLLING REQUEST: GET /v1/documents/D0758ECE-E900-0000-000021F6",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "REQUEST: GET /v1/documents/D0758ECE-E900-0000-000021F6",
+              "status": "passed",
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687946919433,
+              "stop": 1687946919653
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946917335,
+          "stop": 1687946919666
+        },
+        {
+          "name": "REQUEST: POST /v1/flows/D2762909-4200-0000-0000BA29/templates/DFD12BF8-4200-0000-0000FED3/documents/bulk",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946919687,
+          "stop": 1687946920593
+        },
+        {
+          "name": "REQUEST: GET /v1/flows/D2762909-4200-0000-0000BA29",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946920599,
+          "stop": 1687946920903
+        },
+        {
+          "name": "REQUEST: PATCH /v1/flows/D2762909-4200-0000-0000BA29",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946920915,
+          "stop": 1687946921308
+        },
+        {
+          "name": "REQUEST: PATCH /v1/flows/D2762909-4200-0000-0000BA29",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946921316,
+          "stop": 1687946921717
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946910676,
+      "stop": 1687946921725
+    },
+    {
+      "name": "REQUEST: GET /v1/flows/D2762909-4200-0000-0000BA29/templates/DFD12BF8-4200-0000-0000FED3/documents",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946921728,
+      "stop": 1687946922131
+    },
+    {
+      "name": "REQUEST: GET /v1/addons",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946922165,
+      "stop": 1687946923279
+    },
+    {
+      "name": "REQUEST: GET /v1/organization-addons",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946923327,
+      "stop": 1687946923559
+    },
+    {
+      "name": "REQUEST: POST /v1/slate-addons",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946923595,
+      "stop": 1687946925262
+    },
+    {
+      "name": "REQUEST: PATCH /v1/slate-addons/74F33C1E-6600-0000-000093F0",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946925345,
+      "stop": 1687946926224
+    },
+    {
+      "name": "REQUEST: PATCH /v1/slate-addons/74F33C1E-6600-0000-000093F0",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946926293,
+      "stop": 1687946927043
+    },
+    {
+      "name": "REQUEST: PATCH /v1/flows/D2762909-4200-0000-0000BA29",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946927078,
+      "stop": 1687946927396
+    },
+    {
+      "name": "Create blank revision in flow: D2762909-4200-0000-0000BA29",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "POLLING REQUEST: GET /v1/flows/D2762909-4200-0000-0000BA29",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "REQUEST: GET /v1/flows/D2762909-4200-0000-0000BA29",
+              "status": "passed",
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687946928429,
+              "stop": 1687946929045
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946927418,
+          "stop": 1687946929064
+        },
+        {
+          "name": "REQUEST: POST /v1/flows/D2762909-4200-0000-0000BA29/packets/blank",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946929077,
+          "stop": 1687946931036
+        },
+        {
+          "name": "POLLING REQUEST: GET /v1/flows/D2762909-4200-0000-0000BA29/packets/506A8E5F-2400-0000-0000C9C1/revisions/20039A39-C500-0000-00005363",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "REQUEST: GET /v1/flows/D2762909-4200-0000-0000BA29/packets/506A8E5F-2400-0000-0000C9C1/revisions/20039A39-C500-0000-00005363",
+              "status": "passed",
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687946937395,
+              "stop": 1687946937861
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946931062,
+          "stop": 1687946937866
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946927416,
+      "stop": 1687946937867
+    },
+    {
+      "name": "REQUEST: GET /v1/addons/slates/D2762909-4200-0000-0000BA29/addon-logs",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946937916,
+      "stop": 1687946939156
+    },
+    {
+      "name": "POLLING REQUEST: GET /v1/addons/slates/D2762909-4200-0000-0000BA29/addon-logs",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "REQUEST: GET /v1/addons/slates/D2762909-4200-0000-0000BA29/addon-logs",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946941266,
+          "stop": 1687946942273
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946939257,
+      "stop": 1687946942324
+    },
+    {
+      "name": "POLLING REQUEST: GET /v1/addons/slates/D2762909-4200-0000-0000BA29/addon-logs/48F4C9FE-D010-0000-0000F870",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "REQUEST: GET /v1/addons/slates/D2762909-4200-0000-0000BA29/addon-logs/48F4C9FE-D010-0000-0000F870",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946944355,
+          "stop": 1687946945498
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946942340,
+      "stop": 1687946945532
+    },
+    {
+      "name": "REQUEST: GET /v1/documents/E6E76FCE-E900-0000-000021F6/fields",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946945556,
+      "stop": 1687946945986
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Flow link",
+      "source": "73f4d75a-0c35-4b8b-b759-d4b76e476482-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "arg1",
+      "value": "calculate-addon-prefill - SMOKE v. 1"
+    },
+    {
+      "name": "arg0",
+      "value": "REGULAR"
+    },
+    {
+      "name": "Environment",
+      "value": "https://airslate.com"
+    },
+    {
+      "name": "Prom",
+      "value": "ba-asp-36783",
+      "excluded": true
+    }
+  ],
+  "start": 1687946909890,
+  "stop": 1687946946020
+}

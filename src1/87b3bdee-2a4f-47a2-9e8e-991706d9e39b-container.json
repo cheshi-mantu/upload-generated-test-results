@@ -1,0 +1,45 @@
+{
+  "uuid": "87b3bdee-2a4f-47a2-9e8e-991706d9e39b",
+  "name": "com.airslate.api.util.helpers.FixtureHelper.archiveFlow",
+  "children": [
+    "aeda1a29-fe86-451a-a6c4-33bcc6efd71f"
+  ],
+  "description": "",
+  "befores": [],
+  "afters": [
+    {
+      "name": "archiveFlow",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "REQUEST: POST /v1/auth/sign-in",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946946086,
+          "stop": 1687946946813
+        },
+        {
+          "name": "REQUEST: PATCH /v1/flows/trash/move",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946946819,
+          "stop": 1687946947193
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946946085,
+      "stop": 1687946947200
+    }
+  ],
+  "start": 1687946946084,
+  "stop": 1687946947201
+}

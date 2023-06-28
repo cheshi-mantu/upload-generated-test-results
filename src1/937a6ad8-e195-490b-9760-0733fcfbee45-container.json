@@ -1,0 +1,186 @@
+{
+  "uuid": "937a6ad8-e195-490b-9760-0733fcfbee45",
+  "name": "Default Suite",
+  "children": [
+    "d389a4af-c047-4eca-8ef0-f5e5a9081078"
+  ],
+  "befores": [
+    {
+      "name": "registerUserAndOrganization",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [
+        {
+          "name": "REQUEST: POST /v1/auth/sign-in",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "REQUEST: POST /v1/auth/token",
+              "status": "passed",
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687946898015,
+              "stop": 1687946898965
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946897805,
+          "stop": 1687946900325
+        },
+        {
+          "name": "REQUEST: PATCH /v1/tutorial-settings",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946900350,
+          "stop": 1687946900639
+        },
+        {
+          "name": "REQUEST: GET /v1/users/me",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946900649,
+          "stop": 1687946900881
+        },
+        {
+          "name": "REQUEST: GET /v1/subdomain/qasmokeapi6",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946901081,
+          "stop": 1687946901272
+        },
+        {
+          "name": "REQUEST: GET /v1/users/me",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946901290,
+          "stop": 1687946901731
+        },
+        {
+          "name": "POLLING REQUEST: GET /v1/organization-subscriptions",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "REQUEST: GET /v1/organization-subscriptions",
+              "status": "passed",
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687946903925,
+              "stop": 1687946904328
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946901876,
+          "stop": 1687946904362
+        },
+        {
+          "name": "REQUEST: GET /v1/users/me",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946904362,
+          "stop": 1687946904497
+        },
+        {
+          "name": "REQUEST: GET /v1/organizations/ED618696-1000-0000-0000D981/settings",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946904507,
+          "stop": 1687946904773
+        },
+        {
+          "name": "REQUEST: PATCH /v1/organization-settings/227B8696-1000-0000-00003F4A",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946904827,
+          "stop": 1687946905202
+        },
+        {
+          "name": "REQUEST: POST /v1/auth/sign-in",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946906213,
+          "stop": 1687946907022
+        },
+        {
+          "name": "REQUEST: PATCH /v1/tutorial-settings",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946907026,
+          "stop": 1687946907483
+        },
+        {
+          "name": "REQUEST: GET /v1/users/me",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946907489,
+          "stop": 1687946907757
+        },
+        {
+          "name": "REQUEST: GET /v1/users/me",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946907765,
+          "stop": 1687946908177
+        },
+        {
+          "name": "REQUEST: GET /v1/organizations/ED618696-1000-0000-0000D981/settings",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687946908189,
+          "stop": 1687946908452
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687946897798,
+      "stop": 1687946908458
+    }
+  ],
+  "afters": [],
+  "start": 1687946897512,
+  "stop": 1687946947237
+}
